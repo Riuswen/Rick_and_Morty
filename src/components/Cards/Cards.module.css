@@ -1,0 +1,10 @@
+
+.cards {
+    /* contenedor de las tarjetitas */
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 15px;
+    margin-top: 50px;
+  }
+  
+  

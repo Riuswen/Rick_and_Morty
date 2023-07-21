@@ -1,0 +1,49 @@
+/* Nav.module.css */
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+    width: 100%;
+  }
+  
+  .nav img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .nav button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #46ddce;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav button:hover {
+    background-color: #3ee443;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 10px;
+  }
+  
+  .menuLink {
+    padding: 8px 16px;
+    background-color: #607d8b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menuLink:hover {
+    background-color: #78909c;
+  }
+  
