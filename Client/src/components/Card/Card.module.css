@@ -1,0 +1,84 @@
+.card {
+
+    position: relative;
+    grid-column: span 1;
+    background-color: #464646; 
+    box-shadow: 0px 20px 20px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card a{
+
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    background-color: #363636;
+  }
+
+  .card a img{
+
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 100%;
+    width: 100%;
+  }
+
+  .card a h2{
+    width: 100%;
+    background: rgba(125, 121, 121, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+  }
+  
+  .closeButton, .favButton {
+    
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    color: #668A4C;
+    font-size: 15px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  
+  p {
+   
+    text-align: center;
+    color: #7bccc3;
+    font-size: 15px;
+    margin-bottom: 4px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .cardContent {
+    padding: 16px;
+  }
+
+  .closeButton {
+    top: 10px;
+    right: 10px;
+  }
+
+  .favButton {
+    top: 10px;
+    left: 10px;
+  }
+ 
